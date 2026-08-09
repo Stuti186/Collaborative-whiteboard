@@ -1,43 +1,43 @@
-# 🎨 Real-Time Collaborative Whiteboard & Code Editor
+#  Real-Time Collaborative Whiteboard & Code Editor
 
 A real-time collaborative workspace that allows multiple users to **draw, brainstorm, write code, and communicate together** in a shared environment. Changes are synchronized instantly across connected users using WebSockets.
 
 ##  Features
 
-* 🖌️ **Interactive Whiteboard**
+* **Interactive Whiteboard**
 
   * Draw freehand
   * Create shapes and diagrams
   * Add text and annotations
   * Erase and modify elements
 
-* 👥 **Real-Time Collaboration**
+* **Real-Time Collaboration**
 
   * Multiple users can work on the same board simultaneously
   * Changes are synchronized instantly
   * Room-based collaboration
 
-* 💻 **Collaborative Code Editor**
+*  **Collaborative Code Editor**
 
   * Write and edit code together
   * Real-time synchronization between users
   * Supports multiple programming languages
 
-* 🔗 **Shareable Collaboration Rooms**
+*  **Shareable Collaboration Rooms**
 
   * Create or join a workspace using a room ID
   * Invite other users to collaborate
 
-* ⚡ **Real-Time Communication**
+*  **Real-Time Communication**
 
   * WebSocket-based communication
   * Low-latency updates between clients and server
 
-* 📱 **Responsive Interface**
+*  **Responsive Interface**
 
   * Designed to work across different screen sizes
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -62,35 +62,8 @@ A real-time collaborative workspace that allows multiple users to **draw, brains
 * VS Code
 * npm
 
-## 🏗️ System Architecture
 
-```text
-                  ┌──────────────────┐
-                  │   React Client   │
-                  │                  │
-                  │ Whiteboard       │
-                  │ Code Editor      │
-                  │ Collaboration UI│
-                  └────────┬─────────┘
-                           │
-                     WebSocket
-                           │
-                           ▼
-                  ┌──────────────────┐
-                  │  Node.js Server  │
-                  │   Express +      │
-                  │    Socket.IO     │
-                  └────────┬─────────┘
-                           │
-                           ▼
-                  ┌──────────────────┐
-                  │     MongoDB      │
-                  │                  │
-                  │ Users / Rooms /  │
-                  │ Saved Workspace  │
-                  └──────────────────┘
-```
-## 🔄 How Real-Time Collaboration Works
+##  How Real-Time Collaboration Works
 
 1. A user creates or joins a collaboration room.
 2. The client establishes a Socket.IO connection with the server.
@@ -119,7 +92,7 @@ Node.js + Socket.IO
 └───────────────┘
 ```
 
-## 🎯 Use Cases
+##  Use Cases
 
 * 👨‍💻 Pair programming
 * 🎓 Online teaching and learning
@@ -129,25 +102,10 @@ Node.js + Socket.IO
 * 💻 Technical interviews
 * 📝 Project planning
 
-## 🔮 Future Improvements
-
-* User authentication and authorization
-* Persistent whiteboard state
-* Undo/redo synchronization
-* Cursor and user presence indicators
-* Voice/video communication
-* File sharing
-* More programming languages
-* Export whiteboard as PNG/PDF
-* AI-powered diagram/code assistance
-
-## 🌟 Why This Project?
+##  Why This Project?
 
 This project demonstrates the implementation of **real-time distributed collaboration** using WebSockets. It combines frontend development, backend APIs, database management, and event-driven communication to create an interactive multi-user application.
 
-## 👩‍💻 Author
-
-**Stuti Srivastava**
 
 ---
 
