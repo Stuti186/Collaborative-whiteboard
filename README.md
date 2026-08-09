@@ -18,7 +18,7 @@ A real-time collaborative workspace that allows multiple users to **draw, brains
 - Real-time synchronization between users
 - Supports multiple programming languages
 
-###  Shareable Collaboration Rooms
+### Shareable Collaboration Rooms
 - Create or join a workspace using a room ID
 - Invite other users to collaborate
 
@@ -84,13 +84,6 @@ Node.js + Socket.IO
 └───────────────┘
 ```
 
-##  Use Cases
-
-*  Pair programming
-*  Online teaching and learning
-*  Brainstorming sessions
-*  Team meetings
-*  Collaborative diagramming
 
 ##  Why This Project?
 
