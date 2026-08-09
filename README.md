@@ -2,40 +2,32 @@
 
 A real-time collaborative workspace that allows multiple users to **draw, brainstorm, write code, and communicate together** in a shared environment. Changes are synchronized instantly across connected users using WebSockets.
 
-##  Features
+## Features
 
-* **Interactive Whiteboard**
+###  Collaborative Whiteboard
+- Draw and create elements
+- Erase and modify elements
 
-  * Draw freehand
-  * Create shapes and diagrams
-  * Add text and annotations
-  * Erase and modify elements
+###  Real-Time Collaboration
+- Multiple users can work on the same board simultaneously
+- Changes are synchronized instantly
+- Room-based collaboration
 
-* **Real-Time Collaboration**
+###  Collaborative Code Editor
+- Write and edit code together
+- Real-time synchronization between users
+- Supports multiple programming languages
 
-  * Multiple users can work on the same board simultaneously
-  * Changes are synchronized instantly
-  * Room-based collaboration
+###  Shareable Collaboration Rooms
+- Create or join a workspace using a room ID
+- Invite other users to collaborate
 
-*  **Collaborative Code Editor**
+###  Real-Time Communication
+- WebSocket-based communication
+- Low-latency updates between clients and server
 
-  * Write and edit code together
-  * Real-time synchronization between users
-  * Supports multiple programming languages
-
-*  **Shareable Collaboration Rooms**
-
-  * Create or join a workspace using a room ID
-  * Invite other users to collaborate
-
-*  **Real-Time Communication**
-
-  * WebSocket-based communication
-  * Low-latency updates between clients and server
-
-*  **Responsive Interface**
-
-  * Designed to work across different screen sizes
+###  Responsive Interface
+- Designed to work across different screen sizes
 
 ## Tech Stack
 
