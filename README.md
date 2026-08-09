@@ -149,8 +149,6 @@ This project demonstrates the implementation of **real-time distributed collabor
 
 **Stuti Srivastava**
 
-B.Tech Computer Science & Engineering
-
 ---
 
 ⭐ If you found this project useful, consider giving it a star!
