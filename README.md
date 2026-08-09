@@ -94,13 +94,11 @@ Node.js + Socket.IO
 
 ##  Use Cases
 
-* 👨‍💻 Pair programming
-* 🎓 Online teaching and learning
-* 🧠 Brainstorming sessions
-* 👥 Team meetings
-* 📐 Collaborative diagramming
-* 💻 Technical interviews
-* 📝 Project planning
+*  Pair programming
+*  Online teaching and learning
+*  Brainstorming sessions
+*  Team meetings
+*  Collaborative diagramming
 
 ##  Why This Project?
 
